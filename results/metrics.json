@@ -1,0 +1,35 @@
+[
+  {
+    "model": "TF-IDF + logistic regression",
+    "in_scope_accuracy": 0.9253333333333333,
+    "train_seconds": 16.8,
+    "ms_per_message": 0.036,
+    "threshold": 0.5900000000000001,
+    "coverage": 0.8788888888888889,
+    "routed_precision": 0.9492110453648915,
+    "out_of_scope_caught": 0.899,
+    "wrong_auto_rate": 0.037454545454545456
+  },
+  {
+    "model": "Hand-written neural network (NumPy)",
+    "in_scope_accuracy": 0.8844444444444445,
+    "train_seconds": 17.3,
+    "ms_per_message": 0.011,
+    "threshold": 0.68,
+    "coverage": 0.7604444444444445,
+    "routed_precision": 0.9398135066402938,
+    "out_of_scope_caught": 0.883,
+    "wrong_auto_rate": 0.03872727272727273
+  },
+  {
+    "model": "MiniLM embeddings + logistic regression",
+    "in_scope_accuracy": 0.9531111111111111,
+    "train_seconds": 8.6,
+    "ms_per_message": 0.199,
+    "threshold": 0.49,
+    "coverage": 0.9615555555555556,
+    "routed_precision": 0.9155971285621057,
+    "out_of_scope_caught": 0.73,
+    "wrong_auto_rate": 0.07054545454545455
+  }
+]
